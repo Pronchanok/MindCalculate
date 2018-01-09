@@ -6,6 +6,15 @@
     android:layout_height="match_parent"
     tools:context="pronchanok.krirk.ac.th.mindcalculate.MainActivity">
 
+    <!--Wallpaper-->
+    <ImageView
+        android:src="@drawable/bg"
+        android:scaleType="centerCrop"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+
+
     <!--Content of Fragment-->
 <FrameLayout
     android:id="@+id/contentMainFragment"
