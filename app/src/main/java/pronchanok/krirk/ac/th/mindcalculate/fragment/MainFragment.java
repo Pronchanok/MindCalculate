@@ -29,7 +29,7 @@ public class MainFragment extends Fragment{
 
     private void createToolbar() {
         Toolbar toolbar = getView().findViewById(R.id.ToolbarMain);
-        ((MainActivity)getActivity()).setSupportActionBar(Toolbar);
+        ((MainActivity)getActivity()).setSupportActionBar(toolbar);
 
     }
 
